@@ -59,6 +59,7 @@ public class Promociones_act extends AppCompatActivity {
         p.verificaPromo(promoString);
 
 
+
         int resultado = p.getPrecio() + envioInt;
 
         tvInfo.setText("Estimado "+ listado.getSelectedItem().toString()+", el valor final según promoción y envío es: ");
